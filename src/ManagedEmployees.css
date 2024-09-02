@@ -1,0 +1,35 @@
+.managed-employees-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensure borders collapse into a single line */
+    margin-top: 20px;
+    border: 2px solid #000; /* Border around the table */
+}
+
+.managed-employees-table th,
+.managed-employees-table td {
+    border: 1px solid #000; /* Border inside the table */
+    padding: 5px;
+}
+
+.managed-employees-table th {
+    background-color: #f0f0f0; /* Optional: background color for header cells */
+}
+
+.remove-employee-button {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.remove-employee-button:hover {
+    background-color: #d32f2f;
+}
+
+/* New styles to center the button */
+.table-cell-center {
+    display: flex;
+    align-items: center; /* Center button vertically */
+    justify-content: center; /* Center button horizontally */
+}

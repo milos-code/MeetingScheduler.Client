@@ -1,0 +1,70 @@
+.people-manager-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.div-people-manager {
+  padding: 10px;
+}
+
+.label {
+  font-size: 25px;
+}
+
+.people-manager-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.select-box {
+  width: 500px;
+  margin-top: 20px;
+  padding: 2px;
+  border: 2px solid #040505; 
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  appearance: none;
+}
+
+.select-box:focus {
+  border-color: #004578;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 120, 212, 0.3);
+}
+
+.select-box option {
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+}
+
+.select-box .f1e60jzv {
+  padding-left: 20px;
+}
+
+.add-employee-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0078d4; /* Fluent UI primary blue color */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-employee-button:hover {
+  background-color: #005a9e; /* Darker blue on hover */
+}
+
+.add-employee-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 120, 212, 0.3); /* Fluent UI focus ring */
+}
