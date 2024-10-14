@@ -1,0 +1,79 @@
+.managed-employees-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 30%;
+}
+
+.managed-employees-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.managed-employees-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.managed-employees-table th,
+.managed-employees-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.managed-employees-table th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.managed-employees-table tr:last-child td {
+    border-bottom: none;
+}
+
+.managed-employees-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.managed-employees-table .fui-Avatar {
+    border: 2px solid #0078d4;
+    border-radius: 50%;
+}
+
+.managed-employees-table .fui-Button {
+    background-color: #d32f2f;
+    color: white;
+    border: 2px solid #b71c1c;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.managed-employees-table .fui-Button:hover {
+    background-color: #b71c1c;
+    border-color: #d32f2f;
+}
+
+.managed-employees-table .fui-Button__icon {
+    margin-right: 6px;
+}
+
+.managed-employees-table .fui-TableCellLayout {
+    display: flex;
+    align-items: center;
+}
+
+.managed-employees-table .fui-TableCellLayout__media {
+    margin-right: 12px;
+}

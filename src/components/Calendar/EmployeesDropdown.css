@@ -1,0 +1,118 @@
+.multi-select-dropdown {
+    position: relative;
+    width: 50%;
+    font-family: Arial, sans-serif;
+}
+
+.dropdown-header {
+    padding: 12px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    max-height: 350px;
+    overflow-y: auto;
+    z-index: 1000;
+    width: 600px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.dropdown-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown-item.selected {
+    background-color: #d0e0ff;
+}
+
+.avatar-container {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.employee-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 16px;
+}
+
+.employee-option {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.employee-option:hover {
+    background-color: #f3f3f3;
+}
+
+.selected-employees {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 5px;
+}
+
+.ms-Dropdown-title {
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    background-color: #fff !important;
+    color: #333 !important;
+    font-size: 14px !important;
+    height: 36px !important;
+    line-height: 34px !important;
+}
+
+.ms-Dropdown-caretDown {
+    color: #333 !important;
+}
+
+.ms-Dropdown-items {
+    border: 1px solid #ccc !important;
+    border-radius: 0 0 4px 4px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.ms-Dropdown-item {
+    padding: 8px !important;
+}
+
+.ms-Dropdown-item:hover {
+    background-color: #f3f3f3 !important;
+}
+
+.ms-Dropdown-item.is-selected {
+    background-color: #e6f2ff !important;
+    color: #333 !important;
+}

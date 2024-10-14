@@ -1,0 +1,91 @@
+.meeting-room-admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #c9def3;
+    min-height: 100vh;
+}
+
+.meeting-room-admin-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.create-meeting-room-section {
+    flex: 0 0 300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.meeting-rooms-section {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 40vh;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.meeting-room-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.meeting-room-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.meeting-room-item:hover {
+    background-color: #e0e0e0;
+}
+
+.room-avatar {
+    margin-right: 15px;
+}
+
+.room-name {
+    font-size: 16px;
+    color: #333;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.remove-room-button {
+    margin-left: auto;
+    padding: 4px;
+}
+
+@media (max-width: 768px) {
+    .meeting-room-admin-content {
+        flex-direction: column;
+    }
+
+    .create-meeting-room-section,
+    .meeting-rooms-section {
+        width: 100%;
+    }
+
+    .create-meeting-room-section {
+        flex: 0 0 auto;
+    }
+}

@@ -1,0 +1,70 @@
+ .admin-create-user {
+   padding: 20px;
+ }
+
+ .admin-create-user h2 {
+   text-align: center;
+   margin-bottom: 20px;
+ }
+
+ .create-user-form {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+ }
+
+ .form-group {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .form-group label {
+   margin-bottom: 5px;
+   font-weight: bold;
+ }
+
+ .form-group input {
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+ }
+
+ .button-container {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+ }
+
+ .exit-popup-button,
+ .create-user-button {
+   padding: 10px 20px;
+   font-size: 16px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
+
+ .exit-popup-button {
+   background-color: #6c757d;
+   color: white;
+ }
+
+ .exit-popup-button:hover {
+   background-color: #5a6268;
+ }
+
+ .create-user-button {
+   background-color: #4CAF50;
+   color: white;
+ }
+
+ .create-user-button:hover {
+   background-color: #45a049;
+ }
+
+ .create-user-button:disabled {
+   background-color: #cccccc;
+   cursor: not-allowed;
+ }
